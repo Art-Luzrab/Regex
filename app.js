@@ -56,7 +56,24 @@ console.log(regex4.exec(txt)); // null
 
 // ----------------------------------------------------------------------------------------------------------------------------------------------
 
+/** Specifying Characters in Regular Expressions */
+
 // '.' is the wild-card metacharacter
 // it matches and represents a single character, unless multiple are used
 
 // \s is the dotAll metacharacter, it matches and represents any character, including newlines
+
+// To escape metacharacters, use the '\'
+// ex: /\./ will look for a period only
+// ex: /\\/ will look for a backwards slash only
+
+// Control Characters
+
+/** 
+
+\t tab
+\v vertical tab
+\n newline
+\r carriage return
+
+*/
