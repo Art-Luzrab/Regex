@@ -53,3 +53,10 @@ console.log(regex4.exec(txt)); // ['s ', index: 18, input: 'Programming courses 
 console.log(regex4.exec(txt)); // ['S ', index: 25, input: 'Programming courses alwayS starts with a hello world example.', groups: undefined]
 console.log(regex4.exec(txt)); // ['s ', index: 32, input: 'Programming courses alwayS starts with a hello world example.', groups: undefined]
 console.log(regex4.exec(txt)); // null
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------
+
+// '.' is the wild-card metacharacter
+// it matches and represents a single character, unless multiple are used
+
+// \s is the dotAll metacharacter, it matches and represents any character, including newlines
