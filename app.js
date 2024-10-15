@@ -79,9 +79,12 @@ console.log(regex4.exec(txt)); // null
 */
 
 // [] targets a specific character(s)
-// ex. \gr[ae]\g will target gray and grey, will not target graey.
+// ex: \gr[ae]\g will target gray and grey, will not target graey.
 
 // '-' specifies a range
 // ex: [a-z] will look for letters a-z
 //     [0-9] will look for numbers 0-9
 //     [0-9][0-9] will look for double digit numbers
+
+// '^' excludes a characterset
+//  ex: [^a-z] will exclude every letter a-z
