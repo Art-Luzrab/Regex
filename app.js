@@ -77,3 +77,6 @@ console.log(regex4.exec(txt)); // null
 \r carriage return
 
 */
+
+// [] targets a specific character(s)
+// ex. \gr[ae]\g will target gray and grey, will not target graey.
