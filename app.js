@@ -94,3 +94,11 @@ console.log(regex4.exec(txt)); // null
 // ^
 // \
 // ]
+
+// Character Set Shorthand:
+// digits: \d [0-9]
+// word: \w [a-zA-z0-9]
+// space: \s [ \t\r\n]
+// negate digit: \D
+// negate word: \W
+// negate space: \S
