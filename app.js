@@ -88,3 +88,9 @@ console.log(regex4.exec(txt)); // null
 
 // '^' excludes a characterset
 //  ex: [^a-z] will exclude every letter a-z
+
+// Characters You May Need To Escape:
+// -
+// ^
+// \
+// ]
