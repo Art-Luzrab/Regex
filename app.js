@@ -99,6 +99,23 @@ console.log(regex4.exec(txt)); // null
 // digits: \d [0-9]
 // word: \w [a-zA-z0-9]
 // space: \s [ \t\r\n]
-// negate digit: \D
+// negate digit: \D\d{3}-\d{2}-\d{4}
 // negate word: \W
 // negate space: \S
+
+// SECTION 5 -----------------------------------------------------------------------------
+
+// + Matches one or more occurrences
+// ? Matches zero or one occurrences (makes it lazy)
+// * Matches zero or more occurrences
+
+// {min, max} Matches min to max occurrences
+// {min} Matches min occurences
+// {min,} Matches min or more occurrences
+
+// /\d{3}-\d{2}-\d{4}/g
+
+// This regex matches a match of 3 digits, hyphen, then
+// a match of 2 digits, hyphen, and a match of 4 digits.
+
+// So it will match this set of numbers: 529-66-9898
