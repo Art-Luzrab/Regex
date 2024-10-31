@@ -136,7 +136,12 @@ console.log(regex4.exec(txt)); // null
 
 // Writing Accurate Regular Expressions:
 
-// - When possilbe, define the quantity of repeated expressions.
+// - When possible, define the quantity of repeated expressions.
 // - Narrow the scope of repeated expressions
 // - Provide clear starting and ending points
 // - Test multiple data sets!
+
+// SECTION 7 -------------------------------------------------------------------------------------------------------
+
+// | allows to specify alternate patterns to match (similar to 'or' in javascript)
+// () Groups parts of a pattern together, treating them as a single unit.
