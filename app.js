@@ -150,6 +150,7 @@ console.log(regex4.exec(txt)); // null
 // ?: non capturing group
 // ?=  Positive Look Ahead Group Ensures the specified pattern does exist after the current position.
 // ?! Negative Look Ahead Group Ensures the specified pattern does not exist after the current position.
+// ?<...> naming a captured group
 
 // Lookbehind groups in regex let you check if a certain pattern appears before the current position in the string, without including that pattern in the match itself.
 

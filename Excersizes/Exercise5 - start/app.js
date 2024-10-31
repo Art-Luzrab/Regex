@@ -11,11 +11,11 @@ let data = [
   "Crockett, Steven",
 ];
 
-let reg = /(\w+), (\w+)/;
+let reg = /(?<last>\w+), (?<first>\w+)/;
 let newData = data.map(function (val) {
   let arr = reg.exec(val);
   if (arr !== null) {
-    return arr[2] + " " + arr[1];
+    return arr.groups.first + " " + arr.groups.last;
   } else {
     return null;
   }
