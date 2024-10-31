@@ -145,3 +145,13 @@ console.log(regex4.exec(txt)); // null
 
 // | allows to specify alternate patterns to match (similar to 'or' in javascript)
 // () Groups parts of a pattern together, treating them as a single unit.
+// \(any number here)  back reference captures group with a number based on order.
+// \k(any word here) used to name a captured referenced group
+// ?: non capturing group
+// ?=  Positive Look Ahead Group Ensures the specified pattern does exist after the current position.
+// ?! Negative Look Ahead Group Ensures the specified pattern does not exist after the current position.
+
+// Lookbehind groups in regex let you check if a certain pattern appears before the current position in the string, without including that pattern in the match itself.
+
+// (?<=...) Positive Lookbehind Asserts that the specified pattern exists before the current position.
+// (?<!...) Negative Lookbehind Asserts that the specified pattern does not exist before the current position.
