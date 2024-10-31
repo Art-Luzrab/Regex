@@ -119,3 +119,24 @@ console.log(regex4.exec(txt)); // null
 // a match of 2 digits, hyphen, and a match of 4 digits.
 
 // So it will match this set of numbers: 529-66-9898
+
+// SECTION 6 ---------------------------------------------------------------------------------
+
+// ^ Anchors the match to the start of the line.
+// $ Anchors the match to the end of the line.
+// m multi-line flag affects both '^' and '$' anchors
+
+// Word Boundry Metacharacters
+
+// \b Word boundary--Pattern bounded by a non-word character.
+// \B Nonword boundary--Pattern bounded by a word character.
+
+// References position, not an actual character.
+// Word characters: \w or [a-zA-Z0-9_]
+
+// Writing Accurate Regular Expressions:
+
+// - When possilbe, define the quantity of repeated expressions.
+// - Narrow the scope of repeated expressions
+// - Provide clear starting and ending points
+// - Test multiple data sets!
