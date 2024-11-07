@@ -195,7 +195,7 @@ console.log(checkPass(password));
 
 -----------------------------------------------------------------------------------------------
 
-- Using replace with regular expressions:
+## - Using replace with regular expressions:
 
 let names = [
   "Smith, James",
@@ -210,7 +210,7 @@ let newNames = names.map(function (name) {
 
 -----------------------------------------------------------------------------------------------
 
-- Capturing Matched Text: 
+## - Capturing Matched Text: 
 
 Extract all the numbers from this phrase and capture those numbers. Then sum the numbers.
 
@@ -233,7 +233,7 @@ if (result) {
 
 -----------------------------------------------------------------------------------------------
 
-- Iteration over each match:
+## - Iteration over each match:
 
 /*
 Iterate over each match and log the information to the console.
