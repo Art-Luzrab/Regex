@@ -1,4 +1,4 @@
-
+# Starting Examples
 let txt = "Programming courses alwayS starts with a hello world example.";
 
 let regex1 = /hello/;
@@ -40,11 +40,11 @@ console.log(txt.split(regex3)); // (9) ['Programming', 'courses', 'always', 'st
 
 # Regular Expression Flags 
 
- /pattern/*flags here*; or new RegExp("pattern", "flags");
+ /pattern/*flag(s) here*; or new RegExp("pattern", "flags");
 
  ## g - global, match more than one occurance
- i - case insensitive match, case doesn't matter
- m - multi-line match
+ ## i - case insensitive match, case doesn't matter
+ ## m - multi-line match
 
 console.log(txt.match(regex4)); //  ['s ', 'S ', 'S ']
 
