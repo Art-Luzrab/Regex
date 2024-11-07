@@ -42,7 +42,7 @@ console.log(txt.split(regex3)); // (9) ['Programming', 'courses', 'always', 'st
 
  /pattern/*flags here*; or new RegExp("pattern", "flags");
 
- g - global, match more than one occurance
+ ## g - global, match more than one occurance
  i - case insensitive match, case doesn't matter
  m - multi-line match
 
