@@ -140,7 +140,7 @@ console.log(regex4.exec(txt)); // null
 
  ### | allows to specify alternate patterns to match (similar to 'or' in javascript)
  ### () Groups parts of a pattern together, treating them as a single unit.
- ### \(any number here)  back reference captures group with a number based on order.
+ ###  \(any number here)  back reference captures group with a number based on order.
  ### \k(any word here) used to name a captured referenced group
  ### ?: non capturing group
  ### ?=  Positive Look Ahead Group Ensures the specified pattern does exist after the current position.
