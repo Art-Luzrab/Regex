@@ -38,7 +38,7 @@ console.log(txt.split(regex3)); // (9) ['Programming', 'courses', 'always', 'st
 
   ----------------------------------------------------------------------------------------------------------------------------------------------
 
-#Regular Expression Flags 
+# Regular Expression Flags 
 
  /pattern/*flags here*; or new RegExp("pattern", "flags");
 
