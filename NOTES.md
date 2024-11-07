@@ -55,7 +55,7 @@ console.log(regex4.exec(txt)); // null
 
  ----------------------------------------------------------------------------------------------------------------------------------------------
 
-/** Specifying Characters in Regular Expressions */
+ # Specifying Characters in Regular Expressions
 
  '.' is the wild-card metacharacter
  it matches and represents a single character, unless multiple are used
@@ -85,7 +85,7 @@ console.log(regex4.exec(txt)); // null
  '^' excludes a characterset
   ex: [^a-z] will exclude every letter a-z
 
- Characters You May Need To Escape:
+ # Characters You May Need To Escape:
  -
  ^
  \
@@ -99,7 +99,7 @@ console.log(regex4.exec(txt)); // null
  negate word: \W
  negate space: \S
 
- SECTION 5 -------------------------------------------------------------------------------------------------------
+ # SECTION 5 -------------------------------------------------------------------------------------------------------
 ^[^\s@]+@[^\s@.]+\.[^\s@.]+$
 + Matches one or more occurrences
  ? Matches zero or one occurrences (makes it lazy)
@@ -116,7 +116,7 @@ console.log(regex4.exec(txt)); // null
 
  So it will match this set of numbers: 529-66-9898
 
- SECTION 6 -------------------------------------------------------------------------------------------------------
+ # SECTION 6 -------------------------------------------------------------------------------------------------------
 
  ^ Anchors the match to the start of the line.
  $ Anchors the match to the end of the line.
@@ -137,7 +137,7 @@ console.log(regex4.exec(txt)); // null
  - Provide clear starting and ending points
  - Test multiple data sets!
 
- SECTION 7 -------------------------------------------------------------------------------------------------------
+# SECTION 7 -------------------------------------------------------------------------------------------------------
 
  | allows to specify alternate patterns to match (similar to 'or' in javascript)
  () Groups parts of a pattern together, treating them as a single unit.
@@ -155,8 +155,7 @@ console.log(regex4.exec(txt)); // null
 
  -----------------------------------------------------------------------------------------------------------------------------------------------
 
- ***SECTION 9***
-
+ # SECTION 9
 
 Useful Regex Expressions:
 
@@ -193,8 +192,8 @@ let checkPass = function (password) {
     return false;
   }
 };
-
 console.log(checkPass(password));
+
 -----------------------------------------------------------------------------------------------
 
 - Using replace with regular expressions:
